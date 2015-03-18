@@ -5022,6 +5022,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="TG_SWA_1" library="solpad" deviceset="LSP10" device=""/>
 <part name="GATE_NORMAL" library="solpad" deviceset="LSP10" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
+<part name="P+12" library="supply1" deviceset="+12V" device=""/>
+<part name="P-2" library="supply1" deviceset="-12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5124,6 +5126,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="TG_SWA_1" gate="1" x="29.21" y="12.7" rot="R90"/>
 <instance part="GATE_NORMAL" gate="1" x="59.944" y="83.82" rot="R270"/>
 <instance part="GND20" gate="1" x="145.796" y="82.55"/>
+<instance part="IC3" gate="P" x="135.636" y="17.78"/>
+<instance part="P+12" gate="1" x="135.636" y="30.48"/>
+<instance part="P-2" gate="1" x="135.636" y="5.842"/>
 </instances>
 <busses>
 </busses>
@@ -5290,12 +5295,22 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="TG_SWA_3" gate="1" pin="MP"/>
 <wire x1="25.4" y1="19.812" x2="25.4" y2="27.432" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="P" pin="V+"/>
+<pinref part="P+12" gate="1" pin="+12V"/>
+<wire x1="135.636" y1="27.94" x2="135.636" y2="25.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="-12V" class="0">
 <segment>
 <pinref part="P-1" gate="1" pin="-12V"/>
 <pinref part="U1" gate="G$1" pin="-12V"/>
 <wire x1="66.04" y1="93.98" x2="53.086" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="P" pin="V-"/>
+<pinref part="P-2" gate="1" pin="-12V"/>
+<wire x1="135.636" y1="8.382" x2="135.636" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">

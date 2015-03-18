@@ -5032,8 +5032,8 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="IC2" gate="C" x="66.548" y="-14.224"/>
 <instance part="IC2" gate="D" x="92.456" y="-22.352" rot="R180"/>
 <instance part="IC3" gate="A" x="133.35" y="55.372" rot="MR180"/>
-<instance part="IC3" gate="B" x="136.906" y="17.78" rot="R180"/>
-<instance part="IC3" gate="C" x="137.414" y="-10.922" rot="R180"/>
+<instance part="IC3" gate="B" x="135.636" y="17.78" rot="R180"/>
+<instance part="IC3" gate="C" x="135.636" y="-10.922" rot="R180"/>
 <instance part="IC3" gate="D" x="152.146" y="81.026" rot="MR180"/>
 <instance part="U1" gate="G$1" x="43.18" y="93.98"/>
 <instance part="P+1" gate="1" x="66.04" y="106.68"/>
@@ -5082,24 +5082,24 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R20" gate="G$1" x="25.4" y="-17.018" rot="R90"/>
 <instance part="GND11" gate="1" x="25.4" y="-27.178"/>
 <instance part="R21" gate="G$1" x="37.592" y="12.7" rot="R180"/>
-<instance part="IC4" gate="G$1" x="107.188" y="54.61" rot="MR180"/>
+<instance part="IC4" gate="G$1" x="107.188" y="54.864" rot="MR180"/>
 <instance part="Q1" gate="G$1" x="110.49" y="70.358"/>
 <instance part="Q2" gate="G$1" x="127.762" y="70.358" rot="MR0"/>
-<instance part="R22" gate="G$1" x="119.126" y="80.518" rot="R270"/>
+<instance part="R22" gate="G$1" x="119.38" y="80.518" rot="R270"/>
 <instance part="P+8" gate="1" x="119.126" y="93.218"/>
-<instance part="R23" gate="G$1" x="97.028" y="44.958" rot="R90"/>
+<instance part="R23" gate="G$1" x="97.028" y="43.942" rot="R90"/>
 <instance part="GND12" gate="1" x="97.028" y="36.068"/>
 <instance part="R24" gate="G$1" x="120.142" y="61.468"/>
-<instance part="C1" gate="G$1" x="121.412" y="48.006"/>
+<instance part="C1" gate="G$1" x="121.412" y="49.784"/>
 <instance part="GND13" gate="1" x="121.412" y="39.37"/>
-<instance part="GND14" gate="1" x="139.954" y="67.818"/>
+<instance part="GND14" gate="1" x="136.398" y="67.818"/>
 <instance part="ADSR" gate="1" x="161.798" y="61.468" rot="R270"/>
 <instance part="C2" gate="G$1" x="40.894" y="-11.684" rot="R270"/>
 <instance part="R25" gate="G$1" x="51.308" y="-39.624" rot="R90"/>
 <instance part="GND15" gate="1" x="51.308" y="-49.784"/>
-<instance part="R26" gate="G$1" x="112.522" y="9.652" rot="R90"/>
+<instance part="R26" gate="G$1" x="112.522" y="10.16" rot="R90"/>
 <instance part="GND16" gate="1" x="112.522" y="0.508"/>
-<instance part="R27" gate="G$1" x="121.666" y="17.78" rot="R180"/>
+<instance part="R27" gate="G$1" x="120.65" y="17.78" rot="R180"/>
 <instance part="C3" gate="G$1" x="83.058" y="-31.75" rot="R270"/>
 <instance part="R28" gate="G$1" x="156.718" y="-6.096" rot="R90"/>
 <instance part="R29" gate="G$1" x="156.718" y="-22.352" rot="R90"/>
@@ -5186,12 +5186,12 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="97.028" y1="38.608" x2="97.028" y2="39.878" width="0.1524" layer="91"/>
+<wire x1="97.028" y1="38.608" x2="97.028" y2="38.862" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="121.412" y1="42.926" x2="121.412" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="121.412" y1="44.704" x2="121.412" y2="41.91" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="C"/>
@@ -5200,7 +5200,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="132.08" y1="70.358" x2="130.302" y2="70.358" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="B"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="132.08" y1="70.358" x2="139.954" y2="70.358" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="70.358" x2="136.398" y2="70.358" width="0.1524" layer="91"/>
 <junction x="132.08" y="70.358"/>
 </segment>
 <segment>
@@ -5211,7 +5211,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="112.522" y1="3.048" x2="112.522" y2="4.572" width="0.1524" layer="91"/>
+<wire x1="112.522" y1="3.048" x2="112.522" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="156.718" y1="-27.432" x2="156.718" y2="-31.242" width="0.1524" layer="91"/>
@@ -5263,7 +5263,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="P+8" gate="1" pin="+12V"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="119.126" y1="90.678" x2="119.126" y2="85.598" width="0.1524" layer="91"/>
+<wire x1="119.126" y1="90.678" x2="119.38" y2="85.598" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R28" gate="G$1" pin="2"/>
@@ -5471,16 +5471,16 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$21" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="X"/>
-<wire x1="86.36" y1="58.42" x2="97.028" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="58.42" x2="97.028" y2="58.674" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="+IN"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<wire x1="125.222" y1="75.438" x2="119.126" y2="75.438" width="0.1524" layer="91"/>
+<wire x1="125.222" y1="75.438" x2="119.38" y2="75.438" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="119.126" y1="75.438" x2="113.03" y2="75.438" width="0.1524" layer="91"/>
-<junction x="119.126" y="75.438"/>
+<wire x1="119.38" y1="75.438" x2="113.03" y2="75.438" width="0.1524" layer="91"/>
+<junction x="119.38" y="75.438"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
 <pinref part="Q2" gate="G$1" pin="E"/>
 </segment>
@@ -5489,7 +5489,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="Q1" gate="G$1" pin="C"/>
 <wire x1="113.03" y1="65.278" x2="113.03" y2="60.452" width="0.1524" layer="91"/>
-<wire x1="113.03" y1="60.452" x2="112.903" y2="60.325" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="60.452" x2="112.903" y2="60.579" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="G$1" pin="IABC"/>
 </segment>
 </net>
@@ -5497,11 +5497,11 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC4" gate="G$1" pin="-IN"/>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="97.028" y1="50.038" x2="97.028" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="97.028" y1="49.022" x2="97.028" y2="51.054" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="115.062" y1="61.468" x2="97.028" y2="61.468" width="0.1524" layer="91"/>
-<wire x1="97.028" y1="61.468" x2="97.028" y2="50.8" width="0.1524" layer="91"/>
-<junction x="97.028" y="50.8"/>
+<wire x1="97.028" y1="61.468" x2="97.028" y2="51.054" width="0.1524" layer="91"/>
+<junction x="97.028" y="51.054"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -5519,24 +5519,25 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="140.97" y="61.468"/>
 <pinref part="IC3" gate="C" pin="-IN"/>
 <wire x1="148.59" y1="61.468" x2="140.97" y2="61.468" width="0.1524" layer="91"/>
-<wire x1="145.034" y1="-8.382" x2="148.59" y2="-8.382" width="0.1524" layer="91"/>
+<wire x1="143.256" y1="-8.382" x2="148.59" y2="-8.382" width="0.1524" layer="91"/>
 <wire x1="148.59" y1="-8.382" x2="148.59" y2="15.24" width="0.1524" layer="91"/>
 <junction x="148.59" y="61.468"/>
 <pinref part="IC3" gate="B" pin="+IN"/>
 <wire x1="148.59" y1="15.24" x2="148.59" y2="61.468" width="0.1524" layer="91"/>
-<wire x1="144.526" y1="15.24" x2="148.59" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="143.256" y1="15.24" x2="148.59" y2="15.24" width="0.1524" layer="91"/>
 <junction x="148.59" y="15.24"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="+IN"/>
-<wire x1="119.38" y1="54.61" x2="121.412" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="119.253" y1="54.864" x2="121.412" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="121.412" y1="54.61" x2="123.444" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="123.444" y1="54.61" x2="125.73" y2="52.832" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="121.412" y1="50.546" x2="121.412" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="121.412" y1="52.324" x2="121.412" y2="54.61" width="0.1524" layer="91"/>
 <junction x="121.412" y="54.61"/>
+<pinref part="IC4" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -5600,7 +5601,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC3" gate="B" pin="OUT"/>
 <pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="126.746" y1="17.78" x2="129.286" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="125.73" y1="17.78" x2="128.016" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -5612,15 +5613,15 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="106.172" y1="17.78" x2="112.522" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="112.522" y1="17.78" x2="116.586" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="112.522" y1="14.732" x2="112.522" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="112.522" y1="17.78" x2="115.57" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="112.522" y1="15.24" x2="112.522" y2="17.78" width="0.1524" layer="91"/>
 <junction x="112.522" y="17.78"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="IC3" gate="C" pin="OUT"/>
-<wire x1="129.794" y1="-10.922" x2="123.19" y2="-10.922" width="0.1524" layer="91"/>
+<wire x1="128.016" y1="-10.922" x2="123.19" y2="-10.922" width="0.1524" layer="91"/>
 <wire x1="123.19" y1="-10.922" x2="102.362" y2="-31.75" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="102.362" y1="-31.75" x2="85.598" y2="-31.75" width="0.1524" layer="91"/>
@@ -5633,7 +5634,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="156.718" y1="-11.176" x2="156.718" y2="-13.462" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="C" pin="+IN"/>
 <wire x1="156.718" y1="-13.462" x2="156.718" y2="-17.272" width="0.1524" layer="91"/>
-<wire x1="145.034" y1="-13.462" x2="156.718" y2="-13.462" width="0.1524" layer="91"/>
+<wire x1="143.256" y1="-13.462" x2="156.718" y2="-13.462" width="0.1524" layer="91"/>
 <junction x="156.718" y="-13.462"/>
 </segment>
 </net>
@@ -5650,7 +5651,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="163.576" y1="22.606" x2="163.576" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="163.576" y1="20.32" x2="163.576" y2="16.51" width="0.1524" layer="91"/>
-<wire x1="144.526" y1="20.32" x2="163.576" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="143.256" y1="20.32" x2="163.576" y2="20.32" width="0.1524" layer="91"/>
 <junction x="163.576" y="20.32"/>
 <pinref part="IC3" gate="B" pin="-IN"/>
 </segment>

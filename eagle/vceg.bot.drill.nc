@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../CAM/eurorack/VCEG/eagle/vceg.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 3/18/15 2:55 PM)
+(This file generated 3/18/15 3:02 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 20000.0000)
@@ -140,6 +140,7 @@ G82 X-2.4500 Y0.5000
 G82 X-2.8500 Y0.5000  
 G82 X-2.8500 Y0.6500  
 G82 X-2.7500 Y0.8000  
+G82 X-2.6700 Y1.0400  
 G82 X-2.4000 Y0.9000  
 G82 X-3.1500 Y0.8000  
 G82 X-3.3000 Y0.5000  
@@ -156,6 +157,7 @@ G82 X-2.6500 Y2.4500
 G82 X-2.4000 Y2.4500  
 G82 X-2.4500 Y2.6500  
 G82 X-2.0000 Y2.4500  
+G82 X-2.4000 Y2.0900  
 G82 X-2.5000 Y1.9000  
 G82 X-2.5000 Y1.7000  
 G82 X-1.5000 Y0.8500  

@@ -5112,7 +5112,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R31" gate="G$1" x="163.576" y="11.43" rot="R90"/>
 <instance part="GND18" gate="1" x="163.576" y="0"/>
 <instance part="P+10" gate="1" x="163.576" y="36.83"/>
-<instance part="R32" gate="G$1" x="12.7" y="-33.528" rot="R90"/>
+<instance part="R32" gate="G$1" x="12.7" y="-34.29" rot="R90"/>
 <instance part="GND19" gate="1" x="12.7" y="-43.942"/>
 <instance part="TG_SWB_1" gate="1" x="12.7" y="-16.256" rot="R180"/>
 <instance part="TG_SWB_2" gate="1" x="7.112" y="-20.828" rot="R270"/>
@@ -5229,7 +5229,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="R32" gate="G$1" pin="1"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="12.7" y1="-41.402" x2="12.7" y2="-38.608" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-41.402" x2="12.7" y2="-39.37" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -5674,7 +5674,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="R32" gate="G$1" pin="2"/>
 <pinref part="TG_SWB_3" gate="1" pin="MP"/>
-<wire x1="12.7" y1="-27.686" x2="12.7" y2="-28.448" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-27.686" x2="12.7" y2="-29.21" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
