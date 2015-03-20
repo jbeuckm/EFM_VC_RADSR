@@ -2,24 +2,26 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/joebeuckman/Dropbox/CAM/eurorack/VCEG/eagle/vceg.brd
 
-Start at      : 17:05:43 (3/18/15)
-End at        : 17:10:04 (3/18/15)
-Elapsed time  : 00:01:36
+Start at      : 23:33:32 (3/19/15)
+End at        : 23:34:22 (3/19/15)
+Elapsed time  : 00:00:00
 
-Signals       :    47   RoutingGrid: 25 mil  Layers: 1
-Connections   :   111   predefined:  1 ( 0 Vias )
+Signals       :    43   RoutingGrid: 25 mil  Layers: 1
+Connections   :   129   predefined:  1 ( 0 Vias )
 
-Router memory :   83600
+Router memory :   0
 
-Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
+Job has been interrupted!
 
-Time per pass     :  00:01:35  00:00:00  00:00:01  00:00:00  00:00:00
-Number of Ripups  :      1207         0         0         0         0
-max. Level        :         5         0         0         0         0
-max. Total        :        41         0         0         0         0
+Passname          :          
 
-Routed            :       100       100       100       100       100
-Vias              :         0         0         0         0         0
-Resolution        :    91.0 %    91.0 %    91.0 %    91.0 %    91.0 %
+Time per pass     :  00:00:00
+Number of Ripups  :         0
+max. Level        :         0
+max. Total        :         0
+
+Routed            :         0
+Vias              :         0
+Resolution        :     0.8 %
 
 Final             : 
