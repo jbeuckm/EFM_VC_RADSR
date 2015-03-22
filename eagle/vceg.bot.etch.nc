@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../CAM/eurorack/VCEG/eagle/vceg.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 3/20/15 8:51 PM)
+(This file generated 3/20/15 8:54 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (  Tool Size)

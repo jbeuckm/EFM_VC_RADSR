@@ -2393,8 +2393,8 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="3"/>
 <contactref element="C1" pad="1"/>
 <contactref element="IC5" pad="6"/>
-<wire x1="49.276" y1="47.244" x2="45.72" y2="45.72" width="0.6096" layer="16"/>
-<wire x1="57.531" y1="47.244" x2="49.276" y2="47.244" width="0.6096" layer="16"/>
+<wire x1="52.578" y1="46.482" x2="45.72" y2="45.72" width="0.6096" layer="16"/>
+<wire x1="57.531" y1="47.244" x2="52.578" y2="46.482" width="0.6096" layer="16"/>
 <wire x1="57.4675" y1="50.4825" x2="57.531" y2="47.244" width="0.6096" layer="16"/>
 <wire x1="45.72" y1="45.72" x2="45.72" y2="45.974" width="0.6096" layer="16"/>
 <wire x1="57.4675" y1="50.4825" x2="57.404" y2="50.546" width="0.6096" layer="16"/>
