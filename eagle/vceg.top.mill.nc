@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../eurorack/EFM_VCRADSR/eagle/vceg.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 3/27/15 10:29 PM)
+(This file generated 3/27/15 11:26 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 15000.0000)
