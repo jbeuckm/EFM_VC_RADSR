@@ -5934,12 +5934,10 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$41" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="X"/>
-<wire x1="179.832" y1="110.998" x2="171.45" y2="110.998" width="0.1524" layer="91"/>
-<wire x1="187.198" y1="109.474" x2="187.071" y2="109.474" width="0.1524" layer="91"/>
-<wire x1="187.071" y1="109.474" x2="179.832" y2="109.474" width="0.1524" layer="91"/>
-<wire x1="179.832" y1="109.474" x2="179.832" y2="110.998" width="0.1524" layer="91"/>
+<wire x1="178.816" y1="110.998" x2="171.45" y2="110.998" width="0.1524" layer="91"/>
+<wire x1="187.071" y1="109.474" x2="180.34" y2="109.474" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="109.474" x2="178.816" y2="110.998" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="A" pin="+IN"/>
-<junction x="187.071" y="109.474"/>
 </segment>
 </net>
 <net name="N$23" class="0">

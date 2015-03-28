@@ -5225,7 +5225,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R32" gate="G$1" x="98.044" y="18.288" rot="R90"/>
 <instance part="GND19" gate="1" x="98.044" y="8.636"/>
 <instance part="TG_SWB_1" gate="1" x="98.044" y="36.322" rot="R180"/>
-<instance part="TG_SWB_2" gate="1" x="92.71" y="32.004" rot="R270"/>
+<instance part="TG_SWB_2" gate="1" x="92.456" y="32.004" rot="R270"/>
 <instance part="TG_SWB_3" gate="1" x="98.044" y="27.432"/>
 <instance part="P+11" gate="1" x="110.744" y="82.55"/>
 <instance part="TG_SWA_3" gate="1" x="110.744" y="69.85" rot="R180"/>
@@ -5912,9 +5912,8 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="TG_SWB_2" gate="1" pin="MP"/>
 <wire x1="82.804" y1="29.718" x2="85.598" y2="29.718" width="0.1524" layer="91"/>
 <wire x1="85.598" y1="29.718" x2="87.884" y2="32.004" width="0.1524" layer="91"/>
-<wire x1="87.884" y1="32.004" x2="90.17" y2="32.004" width="0.1524" layer="91"/>
+<wire x1="87.884" y1="32.004" x2="89.916" y2="32.004" width="0.1524" layer="91"/>
 <junction x="82.804" y="29.718"/>
-<junction x="90.17" y="32.004"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -5935,11 +5934,9 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC1" gate="A" pin="X"/>
 <wire x1="178.816" y1="110.998" x2="171.45" y2="110.998" width="0.1524" layer="91"/>
-<wire x1="187.198" y1="109.474" x2="187.071" y2="109.474" width="0.1524" layer="91"/>
 <wire x1="187.071" y1="109.474" x2="180.34" y2="109.474" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="109.474" x2="178.816" y2="110.998" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="A" pin="+IN"/>
-<junction x="187.071" y="109.474"/>
 </segment>
 </net>
 <net name="N$23" class="0">

@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CADFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="0.9.8.0" Name="efm_vc_radsr_panel">
   <layers>
-    <layer name="Default" color="127,255,0">
+    <layer name="holes" color="127,255,0">
       <ModificationCount>0</ModificationCount>
       <objects>
-        <text id="7" p1="11.8499999999986,118.330000000002,0" p2="69.2999999999986,27.1300000000019,0" Height="8.09999999999999" Font="Arial" align="bottom,left">
-          <ModificationCount>719</ModificationCount>
-          <mat m="Identity" />VC-RADSR</text>
-        <text id="65" p1="47.2829999999962,108.049,0" p2="40.4159999999962,39.9459999999998,0" Height="6" Font="1CamBam_Stick_9" align="bottom,left">
-          <ModificationCount>568</ModificationCount>
-          <mat m="Identity" />gate</text>
-        <line id="12">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-          <pts>
-            <p>-2.36042874699263E-14,2.45900955847534E-15</p>
-            <p>60.7199999999956,0</p>
-          </pts>
-        </line>
         <points id="14">
           <ModificationCount>1</ModificationCount>
           <mat m="Identity" />
@@ -44,65 +30,6 @@
           <mat m="Identity" />
           <pts>
             <p>58.2999999999946,125.5</p>
-          </pts>
-        </points>
-        <pline id="23" Closed="true">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-          <pts>
-            <p>65.7999999999946,0,0</p>
-            <p>65.7999999999946,128.5,0</p>
-            <p>0,128.5,0</p>
-            <p>-2.36042874699263E-14,2.45900955847534E-15,0</p>
-          </pts>
-        </pline>
-        <text id="24" p1="2.79299999999728,99.5990000000008,0" p2="-4.07400000000273,31.4960000000006,0" Height="8" Font="1CamBam_Stick_9" align="bottom,left">
-          <ModificationCount>377</ModificationCount>
-          <mat m="Identity" />A</text>
-        <text id="25" p1="2.79299999999728,79.1790000000006,0" p2="-4.07400000000273,11.0760000000004,0" Height="8" Font="1CamBam_Stick_9" align="bottom,left">
-          <ModificationCount>175</ModificationCount>
-          <mat m="Identity" />D</text>
-        <text id="26" p1="2.79299999999728,58.8390000000004,0" p2="-4.07400000000273,-9.26399999999978,0" Height="8" Font="1CamBam_Stick_9" align="bottom,left">
-          <ModificationCount>167</ModificationCount>
-          <mat m="Identity" />S</text>
-        <text id="27" p1="2.79299999999728,38.6390000000003,0" p2="-4.07400000000273,-29.4639999999999,0" Height="8" Font="1CamBam_Stick_9" align="bottom,left">
-          <ModificationCount>153</ModificationCount>
-          <mat m="Identity" />R</text>
-        <text id="29" p1="1.81299999999747,18.5989999999999,0" p2="-5.05400000000253,-49.5040000000003,0" Height="6" Font="1CamBam_Stick_9" align="bottom,left">
-          <ModificationCount>39</ModificationCount>
-          <mat m="Identity" />adj</text>
-        <text id="31" p1="49.1529999999958,28.049,0" p2="42.2859999999958,-40.0540000000002,0" Height="6" Font="1CamBam_Stick_9" align="bottom,left">
-          <ModificationCount>200</ModificationCount>
-          <mat m="Identity" />out</text>
-        <text id="32" p1="50.4029999999956,88.049,0" p2="43.5359999999955,19.9459999999998,0" Height="6" Font="1CamBam_Stick_9" align="bottom,left">
-          <ModificationCount>138</ModificationCount>
-          <mat m="Identity" />lfo</text>
-        <points id="35">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-          <pts>
-            <p>53.8099999999994,20.5799999999995</p>
-          </pts>
-        </points>
-        <points id="36">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-          <pts>
-            <p>53.8099999999995,40.8999999999995</p>
-          </pts>
-        </points>
-        <points id="42">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-          <pts>
-            <p>53.8099999999995,81.5399999999995</p>
-          </pts>
-        </points>
-        <points id="43">
-          <ModificationCount>1</ModificationCount>
-          <mat m="Identity" />
-          <pts>
-            <p>53.8099999999995,101.859999999999</p>
           </pts>
         </points>
         <points id="46">
@@ -175,6 +102,88 @@
             <p>17.7999999999989,101.859999999999</p>
           </pts>
         </points>
+        <points id="61">
+          <ModificationCount>104</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>53.7099999999994,20.5799999999995</p>
+          </pts>
+        </points>
+        <points id="62">
+          <ModificationCount>104</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>53.7099999999995,40.8999999999995</p>
+          </pts>
+        </points>
+        <points id="63">
+          <ModificationCount>104</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>53.7099999999995,61.2199999999995</p>
+          </pts>
+        </points>
+        <points id="64">
+          <ModificationCount>104</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>53.7099999999995,81.5399999999995</p>
+          </pts>
+        </points>
+        <points id="66">
+          <ModificationCount>104</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>53.7099999999995,101.859999999999</p>
+          </pts>
+        </points>
+      </objects>
+    </layer>
+    <layer name="lettering" color="127,255,0">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <text id="24" p1="2.79299999999728,99.5990000000008,0" p2="-4.07400000000273,31.4960000000006,0" Height="8" Font="1CamBam_Stick_9" align="bottom,left">
+          <ModificationCount>377</ModificationCount>
+          <mat m="Identity" />A</text>
+        <text id="25" p1="2.79299999999728,79.1790000000006,0" p2="-4.07400000000273,11.0760000000004,0" Height="8" Font="1CamBam_Stick_9" align="bottom,left">
+          <ModificationCount>175</ModificationCount>
+          <mat m="Identity" />D</text>
+        <text id="26" p1="2.79299999999728,58.8390000000004,0" p2="-4.07400000000273,-9.26399999999978,0" Height="8" Font="1CamBam_Stick_9" align="bottom,left">
+          <ModificationCount>167</ModificationCount>
+          <mat m="Identity" />S</text>
+        <text id="27" p1="2.79299999999728,38.6390000000003,0" p2="-4.07400000000273,-29.4639999999999,0" Height="8" Font="1CamBam_Stick_9" align="bottom,left">
+          <ModificationCount>153</ModificationCount>
+          <mat m="Identity" />R</text>
+        <text id="29" p1="1.81299999999747,18.5989999999999,0" p2="-5.05400000000253,-49.5040000000003,0" Height="6" Font="1CamBam_Stick_9" align="bottom,left">
+          <ModificationCount>39</ModificationCount>
+          <mat m="Identity" />adj</text>
+        <text id="31" p1="49.3629999999958,32.0090000000006,0" p2="42.4959999999958,-36.0939999999996,0" Height="6" Font="1CamBam_Stick_9" align="bottom,left">
+          <ModificationCount>623</ModificationCount>
+          <mat m="Identity" />out</text>
+        <text id="32" p1="50.4029999999956,88.049,0" p2="43.5359999999955,19.9459999999998,0" Height="6" Font="1CamBam_Stick_9" align="bottom,left">
+          <ModificationCount>138</ModificationCount>
+          <mat m="Identity" />lfo</text>
+        <text id="65" p1="47.4329999999961,108.049,0" p2="40.5659999999961,39.9459999999998,0" Height="6" Font="1CamBam_Stick_9" align="bottom,left">
+          <ModificationCount>585</ModificationCount>
+          <mat m="Identity" />gate</text>
+        <text id="7" p1="11.8499999999986,118.330000000002,0" p2="69.2999999999986,27.1300000000019,0" Height="8.09999999999999" Font="Arial" align="bottom,left">
+          <ModificationCount>719</ModificationCount>
+          <mat m="Identity" />VC-RADSR</text>
+      </objects>
+    </layer>
+    <layer name="profile" color="127,255,0">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <pline id="23" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>65.7999999999946,0,0</p>
+            <p>65.7999999999946,128.5,0</p>
+            <p>0,128.5,0</p>
+            <p>-2.36042874699263E-14,2.45900955847534E-15,0</p>
+          </pts>
+        </pline>
       </objects>
     </layer>
   </layers>
@@ -200,7 +209,7 @@
           <PlungeFeedrate state="Value">1000</PlungeFeedrate>
           <CutFeedrate state="Value">2000</CutFeedrate>
           <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
-          <StartPoint state="Default">0,0,0</StartPoint>
+          <StartPoint state="Default" />
           <CustomMOPHeader state="Default" />
           <CustomMOPFooter state="Default" />
           <Name>Engrave1</Name>
@@ -212,8 +221,15 @@
           <SpindleRange state="Default">0</SpindleRange>
           <VelocityMode state="Value">ExactStop</VelocityMode>
           <primitive>
-            <prim>7</prim>
+            <prim>24</prim>
+            <prim>25</prim>
+            <prim>26</prim>
+            <prim>27</prim>
+            <prim>29</prim>
+            <prim>31</prim>
+            <prim>32</prim>
             <prim>65</prim>
+            <prim>7</prim>
           </primitive>
           <TargetDepth state="Value">-0.005</TargetDepth>
           <DepthIncrement state="Default">0.4</DepthIncrement>
@@ -230,7 +246,7 @@
           <PlungeFeedrate state="Value">1000</PlungeFeedrate>
           <CutFeedrate state="Value">2000</CutFeedrate>
           <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
-          <StartPoint state="Default">0,0,0</StartPoint>
+          <StartPoint state="Default" />
           <CustomMOPHeader state="Default" />
           <CustomMOPFooter state="Default" />
           <Name>mounting</Name>
@@ -357,6 +373,6 @@
       </Nesting>
     </part>
   </parts>
-  <ActiveLayer>Default</ActiveLayer>
+  <ActiveLayer>profile</ActiveLayer>
   <ActivePart>Part1</ActivePart>
 </CADFile>
