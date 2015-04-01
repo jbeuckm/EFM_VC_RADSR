@@ -231,7 +231,7 @@
             <prim>65</prim>
             <prim>7</prim>
           </primitive>
-          <TargetDepth state="Value">-0.005</TargetDepth>
+          <TargetDepth state="Value">-0.002</TargetDepth>
           <DepthIncrement state="Default">0.4</DepthIncrement>
           <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
           <CutOrdering state="Default">DepthFirst</CutOrdering>
@@ -258,7 +258,25 @@
           <SpindleRange state="Default">0</SpindleRange>
           <VelocityMode state="Default">Undefined</VelocityMode>
           <primitive>
-            <prim>23</prim>
+            <prim>14</prim>
+            <prim>15</prim>
+            <prim>19</prim>
+            <prim>20</prim>
+            <prim>46</prim>
+            <prim>47</prim>
+            <prim>48</prim>
+            <prim>50</prim>
+            <prim>51</prim>
+            <prim>54</prim>
+            <prim>55</prim>
+            <prim>56</prim>
+            <prim>58</prim>
+            <prim>59</prim>
+            <prim>61</prim>
+            <prim>62</prim>
+            <prim>63</prim>
+            <prim>64</prim>
+            <prim>66</prim>
           </primitive>
           <TargetDepth state="Value">-3.2</TargetDepth>
           <DepthIncrement state="Value">0.1</DepthIncrement>
